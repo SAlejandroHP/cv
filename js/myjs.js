@@ -18,6 +18,12 @@ $(document).ready(function(){
   // Parallax
   $('.parallax').parallax();
   // /Parallax
-  $('.scrollspy').scrollSpy();
+  $('.scrollspy').scrollSpy({
+    scrollOffset: 90
+  });
+  $('.collapsible').collapsible();
+  $(".button-collapse").sideNav();
   $('.carousel').carousel();
+  $('ul.tabs').tabs();
+  $('.modal').modal();
 });

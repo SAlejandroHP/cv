@@ -26,3 +26,8 @@ html
 {
   margin: 0px auto;
 }
+.fixed
+{
+  display: block;
+  position: fixed;
+}

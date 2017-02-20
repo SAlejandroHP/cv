@@ -14,9 +14,12 @@ body {
 }
 html
 {
-  /*font-family: 'Raleway', sans-serif !important;*/
+  font-family: 'Raleway', sans-serif !important;
 }
-
+nav{
+  position: fixed;
+  z-index: 9999999999999;
+}
 .logo
 {
   padding: auto 0px;
@@ -30,8 +33,21 @@ html
 }
 .profile
 {
-  width: 150px;
-  margin: 0 auto;
+  width: 20%;
+  position: absolute;
+  left: 40%;
+  top: -40%;
+  border: 5px solid #f44336 !important;
+}
+.collapsible-body{
+  border-bottom: 1px solid #ddd;
+  box-sizing: border-box;
+  text-align: justify;
+  padding: 2rem;
+}
+.profile-content
+{
+  padding-top: 8%;
 }
 .hide-on-small-only
 {
@@ -41,46 +57,35 @@ html
 .table-of-contents a.active {
   border-left: 2px solid #0089ec !important;
 }
+.table-of-contents a:hover {
+  border-left: 1px solid #90caf9 !important;
+}
 .progress {
   background-color: #eceff1 !important;
 }
-
-/* label color */
-/* label focus color */
-.input-field input[type=text]:focus + label, .input-field input[type=email]:focus + label {
-  color: #ffc107 !important ;
- }
-/* label underline focus color */
-.input-field input[type=text]:focus, .input-field input[type=email]:focus {
-  border-bottom: 1px solid #ffc107 !important ;
-  box-shadow: 0 1px 0 0 #ffc107 !important ;
+.margin-botton{
+  margin-bottom: 100px;
 }
-/* valid color */
-.input-field input[type=text].valid, .input-field input[type=email].valid {
-  border-bottom: 1px solid #ffc107 !important ;
-  box-shadow: 0 1px 0 0 #ffc107 !important ;
+.menu-saak li a:hover{
+  border-right: 1px solid #9e9d24 !important;
 }
-/* invalid color */
-.input-field input[type=text].invalid, .input-field input[type=email].invalid {
-  border-bottom: 1px solid #ffc107 !important ;
-  box-shadow: 0 1px 0 0 #ffc107 !important ;
+#mobile li a:hover{
+  border-bottom: 1px solid #9e9d24 !important;
 }
-/* icon prefix focus color */
-.input-field .prefix.active {
-  color: #ffc107 !important ;
+.person-info h5{
+  border-bottom: 1px solid #eeeeee;
+  color: #727272;
+  font-size: 14px;
+  margin-bottom: 12px;
+  padding-bottom: 12px;
 }
-
-
-
-/* Hover */
-/*.header:hover
-{
-  letter-spacing: 7px;
-  transition: 1s;
-  cursor: default;
-}*/
-.hover-color i:hover
-{
-  color: #827717;
-  transition: 1s;
+.person-info h5 span {
+    display: inline-block;
+    min-width: 70px;
+}
+.btn-contacto{
+  margin-top: 30px;
+}
+#introduction{
+  margin-top: 64px;
 }
