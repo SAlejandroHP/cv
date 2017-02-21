@@ -33,11 +33,13 @@ nav{
 }
 .profile
 {
-  width: 20%;
+  width: 150px;
   position: absolute;
   left: 40%;
-  top: -40%;
+  top: -35%;
   border: 5px solid #f44336 !important;
+  line-height: 200px;
+  box-sizing: border-box;
 }
 .collapsible-body{
   border-bottom: 1px solid #ddd;
@@ -47,7 +49,7 @@ nav{
 }
 .profile-content
 {
-  padding-top: 8%;
+  padding-top: 10%;
 }
 .hide-on-small-only
 {
@@ -67,10 +69,10 @@ nav{
   margin-bottom: 100px;
 }
 .menu-saak li a:hover{
-  border-right: 1px solid #9e9d24 !important;
+  border-right: 1px solid #00bcd4 !important;
 }
 #mobile li a:hover{
-  border-bottom: 1px solid #9e9d24 !important;
+  border-bottom: 1px solid #00bcd4 !important;
 }
 .person-info h5{
   border-bottom: 1px solid #eeeeee;
@@ -83,9 +85,16 @@ nav{
     display: inline-block;
     min-width: 70px;
 }
-.btn-contacto{
-  margin-top: 30px;
-}
+
 #introduction{
   margin-top: 64px;
+}
+.btn, .btn-large, .btn-flat {
+  border-radius: 0px !important;
+  height: 28px !important;
+  line-height: 28px !important;
+  margin-bottom: 5px;
+}
+.tabs .indicator {
+  background-color: #00bcd4 !important;
 }
